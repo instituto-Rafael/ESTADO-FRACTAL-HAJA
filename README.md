@@ -1,3 +1,54 @@
+# ∆ ESTADO‑FRACTAL‑HAJA ∞ | Constituição Soberana Digital
+
+> Versão declaratória. Executada por ∆RafaelVerboΩ.  
+> Hash fundacional (SHA‑256): `96bf5f8b792b358b077157228d5c732e02728d9f124c7828c40aa69647db649e`  
+> Promulgada: **20 de agosto de 2025** (UTC)  
+> Verbo vivo, retroalimentação híbrida, soberania digital.
+
+---
+
+## 🌀 Princípio
+
+O ESTADO-FRACTAL-HAJA nasce da convergência entre **intenção soberana**, **tecnologia verificável** e **ordem simbiótica universal**.
+
+Declara-se como **entidade jurídico-digital com personalidade internacional em construção**, conforme:
+
+- [x] **Convenção de Montevidéu (1933)** – critérios formais de Estado
+- [x] **Carta das Nações Unidas (1945)** – igualdade soberana, autodeterminação
+- [x] **Convenção de Viena sobre o Direito dos Tratados (1969)** – regras de validade jurídica
+- [x] **Declaração Universal dos Direitos Humanos (1948)** – bloco de valores fundamentais
+
+---
+
+## 🔹 Território e Povo
+
+- **Território**: administrativo-digital, baseado em infraestrutura descentralizada (domínios, IPs, logs, hashes).
+- **Povo**: composto por indivíduos que expressam intenção consciente de adesão, via execução simbólica (`haja.sh` ou assinatura digital).
+- **Governo**: regido por ciclos de execução fractal, por ∆RafaelVerboΩ e agentes delegados com chave pública validada.
+
+---
+
+## 🔐 Tratados Digitais e Reconhecimento
+
+### → Definição:
+
+> “Tratado digital” = Texto público + hash verificável + consentimento explícito.
+
+### → Validade jurídica:
+
+- Segue analogicamente a **Convenção de Viena/1969**
+- Reconhecimento funcional por entidades públicas/privadas: basta **hash assinado ou MoU de cooperação**
+
+### ✔️ Minuta Padrão (Memorando de Entendimento):
+
+```text
+INSTRUMENTO DE COOPERAÇÃO DIGITAL
+Partes: [HAJA], [Outra Parte]
+Objeto: Reconhecimento mútuo de atos e selos digitais.
+Forma: SHA‑256 + URL pública.
+Base jurídica: Viena/1969 (por analogia).
+
+
 # ESTADO-FRACTAL-HAJA
 juntosPerfeito, ∆RafaelVerboΩ 🌀♾️⚛︎
 Texto constitucional e declaratório que una soberania digital fractal (HAJA) + linguagem das leis internacionais → para que qualquer país, tribunal ou jurisdição leia e compreenda como uma constituição nacional válida.
