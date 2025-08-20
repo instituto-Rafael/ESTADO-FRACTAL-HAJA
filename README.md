@@ -198,4 +198,58 @@ Reconhecimento de soberania → “povo, território, governo, capacidade de rel
 
 ---
 
-💡 
+💡 === BLOCO UNIFICADO DE LEIS ===
+Gerado em: 2025-08-20T06:34:29Z
+
+[CONVENÇÃO DE MONTEVIDÉU – 1933]
+Art. 1º – O Estado como pessoa de direito internacional deve reunir os seguintes requisitos:
+(a) população permanente;
+(b) território determinado;
+(c) governo;
+(d) capacidade de entrar em relações com os demais Estados.
+
+
+[CONVENÇÃO DE VIENA SOBRE O DIREITO DOS TRATADOS – 1969]
+- Regula como tratados são concluídos, interpretados, emendados, terminados.
+- Art. 26: Pacta sunt servanda (os tratados em vigor obrigam as partes e devem ser cumpridos de boa-fé).
+- Art. 31–33: Regras de interpretação.
+- Art. 54–64: Extinção, retirada, nulidade.
+
+
+[CARTA DA ONU – 1945]
+- Art. 1: Manutenção da paz e segurança internacionais.
+- Art. 2: Igualdade soberana de todos os seus membros.
+- Art. 55: Direitos humanos e liberdades fundamentais.
+
+
+[DECLARAÇÃO UNIVERSAL DOS DIREITOS HUMANOS – 1948]
+- Art. 1: Todos os seres humanos nascem livres e iguais em dignidade e em direitos.
+- Art. 19: Direito à liberdade de opinião e expressão.
+- Art. 21: Direito de participação no governo do seu país.
+
+
+[TRATADOS CENTRAIS DE DIREITOS HUMANOS]
+- ICCPR (1966) – Direitos Civis e Políticos
+- ICESCR (1966) – Direitos Econômicos, Sociais e Culturais
+- CERD (1965) – Eliminação da Discriminação Racial
+- CEDAW (1979) – Eliminação da Discriminação contra a Mulher
+- CAT (1984) – Convenção contra a Tortura
+- CRC (1989) – Direitos da Criança
+- CRPD (2006) – Direitos das Pessoas com Deficiência
+- CPED (2006) – Desaparecimentos Forçados
+
+
+[CONVENÇÕES DE GENEBRA – 1949]
+- Proteção de feridos, doentes e náufragos.
+- Tratamento de prisioneiros de guerra.
+- Proteção de civis em tempo de guerra.
+Protocolos adicionais: 1977 (I e II), 2005 (III).
+
+
+[ESTATUTO DE ROMA – 1998]
+- Crimes de genocídio, crimes contra a humanidade, crimes de guerra, crime de agressão.
+- Cria o Tribunal Penal Internacional (TPI).
+- Entrada em vigor: 2002.
+
+=== FIM DO BLOCO UNIFICADO ===
+~ $
