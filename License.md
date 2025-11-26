@@ -3,6 +3,8 @@
 Você quer expandir o bloco das jurisdições islâmicas e mais 9 tradições espirituais-jurídicas correlatas dentro da mesma estrutura global.
 Aqui está o mapa de famílias adicionais que complementam as 180 jurisdições do Tratado Vivo:
 
+![IMG_20251126_180024.png](https://github.com/user-attachments/assets/334aa86e-c9e4-42e2-97c1-5cda6aa69da8)
+
 
 ---
 
