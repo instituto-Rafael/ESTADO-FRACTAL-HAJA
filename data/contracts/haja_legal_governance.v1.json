@@ -1,0 +1,97 @@
+{
+  "schema": "haja_legal_governance_v1",
+  "generated_at": "2026-07-29T21:30:00Z",
+  "authority": {
+    "repository": "instituto-Rafael/ESTADO-FRACTAL-HAJA",
+    "role": "DECLARATORY_CIVIC_TECH_AND_RIGHTS_GOVERNANCE"
+  },
+  "scope": {
+    "state": "DOCUMENTARY_BASELINE_VALIDATED_LOCAL",
+    "claim_allowed": false,
+    "legal_compliance_claim": false,
+    "certification_claim": false,
+    "recognized_state_claim": false,
+    "counsel_review": "TOKEN_VAZIO"
+  },
+  "license_layers": [
+    {
+      "id": "LIC-DOC",
+      "material": "documentation_art",
+      "license": "CC-BY-NC-SA-4.0",
+      "commercial_use": "SEPARATE_AUTHORIZATION"
+    },
+    {
+      "id": "LIC-SW",
+      "material": "original_software",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "commercial_use": "SEPARATE_AGREEMENT"
+    },
+    {
+      "id": "LIC-DATA",
+      "material": "datasets_personal_data_media",
+      "license": "PER_DATASET_MANIFEST",
+      "commercial_use": "DENIED_WHEN_UNKNOWN"
+    },
+    {
+      "id": "LIC-3P",
+      "material": "third_party",
+      "license": "UPSTREAM_TERMS_PREVAIL",
+      "commercial_use": "AS_UPSTREAM_ALLOWS"
+    }
+  ],
+  "invariants": [
+    "manifesto != recognized state",
+    "hash != legal truth",
+    "public access != public domain",
+    "license != software registration",
+    "MPLS != encryption",
+    "allegation != finding",
+    "finding != liability",
+    "belief != coercion",
+    "child protection != child surveillance",
+    "metadata != harmless data"
+  ],
+  "gates": [
+    {"id":"G01","name":"LEGAL_STATUS_BOUNDARY","mandatory":true,"state":"PASS"},
+    {"id":"G02","name":"AUTHORSHIP_PROVENANCE","mandatory":true,"state":"PASS"},
+    {"id":"G03","name":"DOCUMENT_LICENSE","mandatory":true,"state":"PASS"},
+    {"id":"G04","name":"SOFTWARE_LICENSE","mandatory":true,"state":"PASS"},
+    {"id":"G05","name":"DATASET_RIGHTS","mandatory":true,"state":"TOKEN_VAZIO"},
+    {"id":"G06","name":"COMMERCIAL_TERMS","mandatory":true,"state":"TOKEN_VAZIO"},
+    {"id":"G07","name":"LIABILITY_ENFORCEABILITY","mandatory":true,"state":"TOKEN_VAZIO"},
+    {"id":"G08","name":"HIGH_RISK_USE_BOUNDARY","mandatory":true,"state":"PASS"},
+    {"id":"G09","name":"HUMAN_DIGNITY","mandatory":true,"state":"PASS"},
+    {"id":"G10","name":"CHILD_SAFEGUARD","mandatory":true,"state":"PASS"},
+    {"id":"G11","name":"FREEDOM_OF_BELIEF","mandatory":true,"state":"PASS"},
+    {"id":"G12","name":"NON_DISCRIMINATION","mandatory":true,"state":"PASS"},
+    {"id":"G13","name":"PRIVACY_DATA_GOVERNANCE","mandatory":true,"state":"PASS"},
+    {"id":"G14","name":"INCIDENT_NOTIFICATION","mandatory":true,"state":"PASS"},
+    {"id":"G15","name":"REMEDIATION_DUE_PROCESS","mandatory":true,"state":"PASS"},
+    {"id":"G16","name":"MPLS_ROUTE_SEPARATION","mandatory":true,"state":"TOKEN_VAZIO"},
+    {"id":"G17","name":"MPLS_ENCRYPTION_OVERLAY","mandatory":true,"state":"TOKEN_VAZIO"},
+    {"id":"G18","name":"PRIMARY_SOURCE_REGISTER","mandatory":true,"state":"PASS"},
+    {"id":"G19","name":"INDEPENDENT_REVIEW","mandatory":true,"state":"TOKEN_VAZIO"},
+    {"id":"G20","name":"PUBLIC_CLAIM_APPROVAL","mandatory":true,"state":"BLOCKED"}
+  ],
+  "liability_draft": {
+    "status": "NON_BINDING_DRAFT",
+    "ordinary_direct_damage_cap_usd_per_affected_licensed_device": "1.00",
+    "carve_outs": [
+      "fraud",
+      "intentional_misconduct",
+      "gross_negligence_when_nonwaivable",
+      "death_or_personal_injury",
+      "privacy_or_security_violation",
+      "child_harm",
+      "discrimination",
+      "confidentiality",
+      "third_party_ip",
+      "mandatory_law"
+    ]
+  },
+  "promotion": {
+    "all_mandatory_gates_closed": false,
+    "public_claim_allowed": false,
+    "blocking_gate_ids": ["G05","G06","G07","G16","G17","G19","G20"]
+  }
+}
