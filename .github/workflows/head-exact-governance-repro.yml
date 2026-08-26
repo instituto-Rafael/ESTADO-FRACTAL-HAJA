@@ -1,0 +1,56 @@
+name: head-exact-governance-repro
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run canonical validator
+        run: |
+          python scripts/validate_legal_governance.py --write-report artifacts/legal-governance-report.json
+      - name: Run unittest suite
+        run: |
+          python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Build HEAD-exact receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts
+          python - <<'PY'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          head = subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip()
+          tree = subprocess.check_output(['git','rev-parse','HEAD^{tree}'], text=True).strip()
+          report = Path('artifacts/legal-governance-report.json')
+          payload = {
+            'schema':'estado-fractal-haja.head-exact-governance-receipt/v1',
+            'head_sha': head,
+            'tree_sha': tree,
+            'python': os.popen('python --version').read().strip(),
+            'validator_report_sha256': hashlib.sha256(report.read_bytes()).hexdigest(),
+            'scope':'legal-governance validator + unittest suite',
+            'empirical_runtime_claim': False,
+            'recognized_state_claim': False,
+            'claim_allowed': False
+          }
+          raw=(json.dumps(payload, sort_keys=True, indent=2)+'\n').encode()
+          Path('artifacts/head-exact-receipt.json').write_bytes(raw)
+          Path('artifacts/head-exact-receipt.sha256').write_text(hashlib.sha256(raw).hexdigest()+'  head-exact-receipt.json\n')
+          PY
+          cat artifacts/head-exact-receipt.json
+          cat artifacts/head-exact-receipt.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: estado-fractal-haja-head-exact-receipt
+          path: artifacts/
+          if-no-files-found: error
