@@ -1,0 +1,668 @@
+{
+  "schema": "haja.international.multidimensional.v2",
+  "observed_on": "2026-10-31",
+  "source_repo": "instituto-Rafael/ESTADO-FRACTAL-HAJA",
+  "source_base_commit": "9f978bc71a912dc5f1920123e9dbf1d07167542c",
+  "state": "RESEARCH_SOURCE_ROUTING_ONLY",
+  "claim_allowed": false,
+  "legal_compliance_claim": false,
+  "sovereignty_claim": false,
+  "independent_counsel_reviewed": false,
+  "automated_sanctions_allowed": false,
+  "release_allowed": false,
+  "promotion": "HOLD",
+  "provider_enforcement": "TOKEN_VAZIO_NOT_ATTESTED",
+  "authority": {
+    "producer": "instituto-Rafael/ESTADO-FRACTAL-HAJA",
+    "federation": "rafaelmeloreisnovo/Mapa",
+    "memory": "Google Drive NEXUS successor",
+    "third_parties": "retain authorship and licenses; no inferred endorsements"
+  },
+  "source_conflicts": [
+    {
+      "key": "PRODUCTO_VISIBILITY",
+      "at_base": "PRODUCTO.json blob 6536acc32d4ddcc22be151adc05f2bbffb700269 declares private",
+      "observed": "GitHub get_repo returns public",
+      "resolution": "STALE_SNAPSHOT_NOT_REWRITTEN"
+    },
+    {
+      "key": "PRODUCTO_MERGES",
+      "at_base": "PRODUCTO.json merged_pr_count=0",
+      "observed": "GitHub PR5, PR6, PR7, PR8 closed merged",
+      "resolution": "STALE_SNAPSHOT_NOT_REWRITTEN"
+    },
+    {
+      "key": "LICENSE_CASE",
+      "at_base": "License.md blob 693cd98c6a522bf791c1010b79ddec769a6b9b7e is historic cultural drafting; LICENSE.md blob fa3e11e638187e533671157a0f9de93b30974260 is current license policy",
+      "observed": "case-sensitive filenames distinct",
+      "resolution": "DO_NOT_PROMOTE_HISTORIC_LICENSE"
+    },
+    {
+      "key": "NO_AGENTS",
+      "at_base": "AGENTS.md not found at main",
+      "observed": "absent source",
+      "resolution": "POINT_TO_EXISTING_README_AND_POLICY_AND_THIS_SUCCESSOR"
+    }
+  ],
+  "source_status_policy": "Official URLs are pointers to legal sources, not verified article-by-article current text. Country treaty-party status, reservations and operational applicability are TOKEN_VAZIO unless separately verified.",
+  "regions": {
+    "EU": "Europe",
+    "AS": "Asia",
+    "AM": "Americas",
+    "AF": "Africa",
+    "OC": "Oceania"
+  },
+  "country_scope": [
+    {
+      "id": "GB",
+      "name": "Reino Unido",
+      "continent": "EU",
+      "source": "https://www.legislation.gov.uk/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "FR",
+      "name": "França",
+      "continent": "EU",
+      "source": "https://www.legifrance.gouv.fr/loda/id/LEGISCTA000042422854",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "DE",
+      "name": "Alemanha",
+      "continent": "EU",
+      "source": "https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
+      "source_state": "OFFICIAL_TRANSLATION_VERSIONED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "CH",
+      "name": "Suíça",
+      "continent": "EU",
+      "source": "https://www.fedlex.admin.ch/redirect/rs/101/en",
+      "source_state": "OFFICIAL_NONAUTHORITATIVE_EN_TRANSLATION",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "RU",
+      "name": "Rússia",
+      "continent": "EU",
+      "source": "https://www.minjust.gov.ru/ru/documents/8011/",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "IT",
+      "name": "Itália",
+      "continent": "EU",
+      "source": "https://www.normattiva.it/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "ES",
+      "name": "Espanha",
+      "continent": "EU",
+      "source": "https://www.boe.es/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "CN",
+      "name": "China",
+      "continent": "AS",
+      "source": "https://en.moj.gov.cn/2021-06/22/c_634901.htm",
+      "source_state": "OFFICIAL_TRANSLATION_VERSIONED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "JP",
+      "name": "Japão",
+      "continent": "AS",
+      "source": "https://www.japaneselawtranslation.go.jp/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "IN",
+      "name": "Índia",
+      "continent": "AS",
+      "source": "https://www.legislative.gov.in/documents",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "ID",
+      "name": "Indonésia",
+      "continent": "AS",
+      "source": "https://peraturan.bpk.go.id/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "KR",
+      "name": "Coreia do Sul",
+      "continent": "AS",
+      "source": "https://www.law.go.kr/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "BR",
+      "name": "Brasil",
+      "continent": "AM",
+      "source": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "US",
+      "name": "Estados Unidos",
+      "continent": "AM",
+      "source": "https://constitution.congress.gov/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "CA",
+      "name": "Canadá",
+      "continent": "AM",
+      "source": "https://laws-lois.justice.gc.ca/eng/",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "MX",
+      "name": "México",
+      "continent": "AM",
+      "source": "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf",
+      "source_state": "OFFICIAL_LINK_IDENTIFIED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "AR",
+      "name": "Argentina",
+      "continent": "AM",
+      "source": "https://www.argentina.gob.ar/normativa",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "CL",
+      "name": "Chile",
+      "continent": "AM",
+      "source": "https://www.bcn.cl/leychile/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "ZA",
+      "name": "África do Sul",
+      "continent": "AF",
+      "source": "https://www.justice.gov.za/constitution/",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "KE",
+      "name": "Quênia",
+      "continent": "AF",
+      "source": "https://new.kenyalaw.org/akn/ke/act/2010/constitution/eng@2010-09-03/source.pdf",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "NG",
+      "name": "Nigéria",
+      "continent": "AF",
+      "source": "https://nass.gov.ng/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "AU",
+      "name": "Austrália",
+      "continent": "OC",
+      "source": "https://www.legislation.gov.au/C2004A03712/latest/downloads",
+      "source_state": "OFFICIAL_PAGE_OBSERVED",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    },
+    {
+      "id": "NZ",
+      "name": "Nova Zelândia",
+      "continent": "OC",
+      "source": "https://www.legislation.govt.nz/",
+      "source_state": "PORTAL_POINTER_ONLY",
+      "legal_effect": "TOKEN_VAZIO_NOT_REVIEWED",
+      "operational_nexus": "TOKEN_VAZIO_NOT_ATTESTED",
+      "local_counsel": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "review_rule": "official current text + treaty status/reservations + case facts + opposing authority + qualified reviewer"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "UN",
+      "name": "ONU",
+      "source": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "role": "DECLARATION_RESEARCH",
+      "limit": "not global court/not sovereign recognition",
+      "endorsement": false
+    },
+    {
+      "id": "OHCHR",
+      "name": "Alto Comissariado de Direitos Humanos",
+      "source": "https://indicators.ohchr.org/",
+      "role": "TREATY_STATUS_INDEX",
+      "limit": "ratification dashboard does not resolve reservations/domestic effect",
+      "endorsement": false
+    },
+    {
+      "id": "UNESCO",
+      "name": "UNESCO",
+      "source": "https://www.unesco.org/en/legal-affairs/convention-protection-and-promotion-diversity-cultural-expressions",
+      "role": "CULTURAL_CONVENTION",
+      "limit": "parties and reservations differ; no automatic cultural endowment",
+      "endorsement": false
+    },
+    {
+      "id": "UNICEF",
+      "name": "UNICEF",
+      "source": "https://www.unicef.org/brazil/convencao-sobre-os-direitos-da-crianca",
+      "role": "CHILD_RIGHTS",
+      "limit": "CRC state parties; US exception and actual operator duties need separate evaluation",
+      "endorsement": false
+    },
+    {
+      "id": "ICRC",
+      "name": "Comitê Internacional da Cruz Vermelha",
+      "source": "https://www.icrc.org/en/doc/assets/files/publications/icrc-002-0962.pdf",
+      "role": "INTERNATIONAL_HUMANITARIAN_LAW",
+      "limit": "Geneva law conflict thresholds; no authority to award statehood or emblems",
+      "endorsement": false
+    },
+    {
+      "id": "WHO",
+      "name": "Organização Mundial da Saúde",
+      "source": "https://www.who.int/health-topics/international-health-regulations",
+      "role": "PUBLIC_HEALTH",
+      "limit": "IHR as amended, reservations/rejections/entry into force by party; no public health regulator status for HAJA",
+      "endorsement": false
+    },
+    {
+      "id": "ILO",
+      "name": "Organização Internacional do Trabalho",
+      "source": "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:12201:0::NO::P12201_INSTRUMENT_ID:312314",
+      "role": "WORK_AND_INDIGENOUS",
+      "limit": "C169 ratification required; not universal rule",
+      "endorsement": false
+    },
+    {
+      "id": "UNHCR",
+      "name": "ACNUR",
+      "source": "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention",
+      "role": "REFUGEE_PROTECTION",
+      "limit": "asylum sovereignty and refugee status cannot be granted by repository",
+      "endorsement": false
+    },
+    {
+      "id": "WIPO",
+      "name": "OMPI",
+      "source": "https://www.wipo.int/wipolex/en/treaties/parties/15",
+      "role": "COPYRIGHT_TREATY_STATUS",
+      "limit": "Berne safeguards original works, not ideas/automatic claim ownership",
+      "endorsement": false
+    },
+    {
+      "id": "ITU",
+      "name": "UIT",
+      "source": "https://www.itu.int/en/ITU-D/Cybersecurity/Pages/COP/COP.aspx",
+      "role": "CHILD_ONLINE_GUIDANCE",
+      "limit": "guidance does not certify a platform",
+      "endorsement": false
+    },
+    {
+      "id": "UNEP",
+      "name": "PNUMA",
+      "source": "https://www.unep.org/",
+      "role": "ENVIRONMENT_GUIDANCE",
+      "limit": "water, energy, environment need local site/operator data",
+      "endorsement": false
+    },
+    {
+      "id": "UNWOMEN",
+      "name": "ONU Mulheres",
+      "source": "https://www.unwomen.org/",
+      "role": "GENDER_EQUALITY_GUIDANCE",
+      "limit": "no international certification of project policy",
+      "endorsement": false
+    }
+  ],
+  "international_instruments": [
+    {
+      "id": "UDHR",
+      "kind": "DECLARATION",
+      "source": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "limitation": "Universal declaration is not itself a treaty; possible customary law implications require separate analysis",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "ICCPR",
+      "kind": "TREATY",
+      "source": "https://indicators.ohchr.org/",
+      "limitation": "Verify state-party status, reservations, domestic effect and applicable rights",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "ICESCR",
+      "kind": "TREATY",
+      "source": "https://indicators.ohchr.org/",
+      "limitation": "Verify ratification, progressive realization, domestic effect",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "CRC",
+      "kind": "TREATY",
+      "source": "https://www.unicef.org/brazil/convencao-sobre-os-direitos-da-crianca",
+      "limitation": "US not state party; national child duties depend on jurisdiction and service",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "UNESCO2005",
+      "kind": "CULTURAL_TREATY",
+      "source": "https://www.unesco.org/en/legal-affairs/convention-protection-and-promotion-diversity-cultural-expressions",
+      "limitation": "Party-specific status; private actor not UNESCO-recognized by citation",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "BERNE",
+      "kind": "IP_TREATY",
+      "source": "https://www.wipo.int/wipolex/en/treaties/parties/15",
+      "limitation": "Copyright not new sovereign rights, domain or ownership proof",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "GENEVA1949",
+      "kind": "IHL_TREATY",
+      "source": "https://www.icrc.org/en/doc/assets/files/publications/icrc-002-0962.pdf",
+      "limitation": "Armed conflict thresholds; emblem use restricted; no routine digital jurisdiction",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "IHR2024",
+      "kind": "HEALTH_REGULATIONS",
+      "source": "https://www.who.int/health-topics/international-health-regulations",
+      "limitation": "2024 amendments effective 2025-09-19 for relevant parties subject to rejections/reservations; do not assume all parties have same text",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "ILO169",
+      "kind": "LABOR_TREATY",
+      "source": "https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:12201:0::NO::P12201_INSTRUMENT_ID:312314",
+      "limitation": "Only ratifying states are treaty parties; consultation not ownership of peoples' culture",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "REFUGEE1951",
+      "kind": "REFUGEE_TREATY",
+      "source": "https://www.unhcr.org/about-unhcr/overview/1951-refugee-convention",
+      "limitation": "State obligations and asylum procedures; do not claim private grant of status",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "UNCLOS60_8",
+      "kind": "SEA_LAW_TREATY",
+      "source": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/part5.htm",
+      "limitation": "Artificial islands no own territorial sea, historical 1968 Rose Island predates 1982 treaty; do not retroactively apply",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    },
+    {
+      "id": "MONTEVIDEO1933",
+      "kind": "STATEHOOD_CONVENTION",
+      "source": "https://history.state.gov/historicaldocuments/frus1933v04/d134",
+      "limitation": "Criteria and recognition distinct; not substitute proof of statehood",
+      "per_country_effect": "TOKEN_VAZIO_NOT_ATTESTED",
+      "applicability": "REQUIRES_NEXUS_AND_REVIEW"
+    }
+  ],
+  "special_case": {
+    "id": "ROSE_ISLAND_1968",
+    "state": "HISTORICAL_UNRECOGNIZED_MICRONATION_CASE",
+    "source": "https://www.teche.rai.it/2018/05/lisola-delle-rose-sogno-della-repubblica-esperantista-indipendente/",
+    "legal_limit": "Neither a domain nor a data center nor artificial platform independently creates territory or statehood; UNCLOS 1982 postdates the 1968 episode; historical interpretation requires careful temporal analysis."
+  },
+  "gates": [
+    {
+      "id": "G01",
+      "priority": "P0",
+      "kind": "SOVEREIGNTY_AND_TREATY_FALSE_PROMOTION",
+      "state": "POLICY_DOCUMENTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G02",
+      "priority": "P0",
+      "kind": "CHILD_SAFEGUARD_REAL_OPERATOR",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G03",
+      "priority": "P0",
+      "kind": "SENSITIVE_RELIGION_AND_CHILD_DATA_MAP",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G04",
+      "priority": "P0",
+      "kind": "SECRET_OR_TOKEN_EXPOSURE_ADMIN_REVIEW",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G05",
+      "priority": "P0",
+      "kind": "PROVIDER_BRANCH_RULESET_ENFORCEMENT",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G06",
+      "priority": "P0",
+      "kind": "HUMANITARIAN_NAME_EMBLEM_ENDORSEMENT_MISUSE",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G07",
+      "priority": "P1",
+      "kind": "RIGHTSHOLDER_AND_THIRD_PARTY_LICENSE_CHAIN",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G08",
+      "priority": "P1",
+      "kind": "JURISDICTION_OPERATOR_MARKET_NEXUS",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G09",
+      "priority": "P1",
+      "kind": "TREATY_RESERVATION_AND_ENTRY_INTO_FORCE",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G10",
+      "priority": "P1",
+      "kind": "OFFICIAL_LANGUAGE_TRANSLATION_AUTHORITY",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G11",
+      "priority": "P1",
+      "kind": "JUDICIAL_PRECEDENT_FACT_MATCH_AND_ADVERSARY",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G12",
+      "priority": "P1",
+      "kind": "HOSTING_WATER_ENERGY_ENVIRONMENT",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G13",
+      "priority": "P1",
+      "kind": "INDEPENDENT_QUALIFIED_COUNSEL_AND_LOCAL_REVIEW",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    },
+    {
+      "id": "G14",
+      "priority": "P1",
+      "kind": "FRACTAL_IMPLEMENTATION_RUNTIME_EVIDENCE",
+      "state": "TOKEN_VAZIO_NOT_ATTESTED",
+      "claim_promotion_effect": "NONE",
+      "required_evidence": "authenticated relevant source and scoped adversarial receipt; private data kept private",
+      "owner": "TOKEN_VAZIO_NOT_ASSIGNED",
+      "negative_case": "no attestation, fabricated proof, stale source, missing counterexample => HOLD"
+    }
+  ],
+  "priority_rules": [
+    "human_safety_before_symbolic_claims",
+    "missing_hard_gate_blocks_promotion",
+    "legal_research_not_formal_opinion",
+    "legal_hierarchy_is_not_superseded_by_virtual_governance",
+    "human_qualified_review_must_be_documented",
+    "private_evidence_not_public_payload",
+    "multi_continent_coverage_not_global_certification",
+    "no_formula_or_source_equivalence_by_name",
+    "no_temporal_retroactivity_without_basis",
+    "metadata_id_is_not_evidence_of_causality"
+  ],
+  "rollback": "delete/close isolated unmerged branch after verified comparison; immutable predecessor main remains untouched; successors append correction with supersedes",
+  "next": "human operator confirms jurisdiction/service/data practices + provider admin P0 + counsel article-by-article in selected countries; only then evaluate scoped claims"
+}
