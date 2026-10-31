@@ -7,7 +7,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "governance/international/v2/source_registry.v2.json"
 REVIEW = ROOT / "governance/international/v2/REVIEW_AND_FAILSAFE.md"
 COUNTRIES = {"GB","FR","DE","CH","RU","IT","ES","CN","JP","IN","ID","KR",
