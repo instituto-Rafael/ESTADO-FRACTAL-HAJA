@@ -63,6 +63,10 @@ def verify(d: object) -> list[str]:
               and len(ids) == len(set(ids)), "COUNTRIES_EXACT_SCOPE")
         region_values = {x.get("continent") for x in countries if isinstance(x,dict)}
         check(region_values == REGIONS, "FIVE_CONTINENTS")
+        expected_region_counts = {"EU":7,"AS":5,"AM":6,"AF":3,"OC":2}
+        counts = {region:sum(1 for x in countries if isinstance(x,dict)
+                  and x.get("continent")==region) for region in REGIONS}
+        check(counts == expected_region_counts, "COUNTRY_CONTINENT_ASSIGNMENT")
         for x in countries:
             if not isinstance(x, dict):
                 failures.append("INVALID_COUNTRY"); continue
