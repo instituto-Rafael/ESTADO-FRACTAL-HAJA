@@ -1,5 +1,7 @@
 # ∆ ESTADO-FRACTAL-HAJA ∞
 
+**Navegação jurídica atualizada (proposta em PR):** [001_PONTEIRO / START HERE](001_PONTEIRO/START_HERE.md) → [dossiê Estado de Direito, jurisprudência e Ilha das Rosas](docs/legal/HAJA_ESTADO_DIREITO_ILHA_DAS_ROSAS_V1.md). Pesquisa, sem certificação ou soberania reconhecida; **claim_allowed=false**.
+
 **Projeto de pesquisa, cidadania digital, governança de dados e expressão cultural.**
 
 ```text
