@@ -93,6 +93,10 @@ claim_id | proposition | source_id | original_url | authority | jurisdiction | d
 
 Não extrair dados sensíveis, segredos, relatos infantis ou crenças para evidenciar esta pesquisa. **claim_allowed=false**, **recognized_state_claim=false**, **counsel_review=TOKEN_VAZIO** até prova e decisão humana aplicável.
 
+## 8A. Referência científica transversal — redes complexas (não jurídica)
+
+[Henrique Ferraz de Arruda — publicações de 2025 e vínculo anterior à USP](../research/HENRIQUE_FERRAZ_DE_ARRUDA_REDES_COMPLEXAS_2025_V1.md) fornece literatura metodológica sobre redes adaptativas de opiniões e análise de redes do conhecimento. Pode inspirar a representação temporal e versionada de relações do HAJA. **Não é doutrina jurídica, jurisprudência, reconhecimento de Estado, aprovação da USP ou comprovação de governança implementada.** A correspondência com o título oral “atualizações de redes complexas” permanece TOKEN_VAZIO_TITULO_EXATO.
+
 ## 9. Proveniência / reversibilidade
 
 Este dossiê é **aditivo** e não altera contratos, licença, manifesto histórico, estado de soberania nem decisões de terceiros. Histórico preservado por commits. Rota humana/IA: 001_PONTEIRO/START_HERE.md → README.md → docs/LEGAL_SOURCE_AND_CASE_REGISTER.md → este dossiê → fontes primárias.
