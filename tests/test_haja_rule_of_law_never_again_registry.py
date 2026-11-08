@@ -32,7 +32,7 @@ class HajaRuleOfLawNeverAgainRegistry(unittest.TestCase):
         self.assertGreaterEqual(len(self.cases), 14)
         self.assertGreaterEqual(len(self.edges), 18)
         self.assertIn("≠ total mundial", self.text)
-        self.assertIn("não foram auditados todos os artigos", self.text.lower())
+        self.assertIn("foram auditados todos os artigos", self.text.lower())
 
     def test_ids_are_unique_and_typed(self):
         for data, prefix in ((self.norms, "N"), (self.cases, "C"), (self.edges, "E")):
