@@ -59,7 +59,11 @@ class HajaRuleOfLawNeverAgainRegistry(unittest.TestCase):
             for key in ("tribunal", "decision_date", "material_facts", "holding_summary",
                         "limits_and_counterpoint", "source_status", "full_judgment_read"):
                 self.assertTrue(item[key], (item["id"], key))
-            self.assertLessEqual(date.fromisoformat(item["decision_date"]), date(2026, 11, 8))
+            date_text = item["decision_date"]
+            if len(date_text) == 4:  # source currently establishes only the year
+                self.assertLessEqual(int(date_text), 2026)
+            else:
+                self.assertLessEqual(date.fromisoformat(date_text), date(2026, 11, 8))
             self.assertEqual("TOKEN_VAZIO", item["full_judgment_read"])
             self.assertFalse(item["claimed_new_precedent"])
 
@@ -102,7 +106,7 @@ class HajaRuleOfLawNeverAgainRegistry(unittest.TestCase):
 
     def test_no_claim_of_automatic_recognition(self):
         self.assertIn("nenhum precedente criado", self.text.lower())
-        self.assertIn("sem comprovação", self.text.lower() if "sem comprovação" in self.text.lower() else "sem comprovação")
+        self.assertIn("não há demonstração", self.text.lower())
 
 if __name__ == "__main__":
     unittest.main()
