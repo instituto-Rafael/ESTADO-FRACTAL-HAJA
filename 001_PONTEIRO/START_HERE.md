@@ -11,7 +11,8 @@
 3. [Registro jurídico existente](../docs/LEGAL_SOURCE_AND_CASE_REGISTER.md): fontes brasileiras, internacionais e jurisprudência em privacidade/IP.
 4. [Estado de Direito, Ilha das Rosas e precedentes](../docs/legal/HAJA_ESTADO_DIREITO_ILHA_DAS_ROSAS_V1.md): matriz jurisprudencial adversarial, doutrinas, temporalidade, gates HJ-L01–HJ-L10.
 5. [Redes complexas — Henrique Ferraz de Arruda (2026) — V2](../docs/research/HENRIQUE_FERRAZ_DE_ARRUDA_REDES_COMPLEXAS_2026_V2.md): PNAS Nexus 2026; artigo on-line em 30/12/2025, edição de janeiro/2026; USP 2019 ≠ afiliação da publicação 2026. [V1 de 2025, histórico](../docs/research/HENRIQUE_FERRAZ_DE_ARRUDA_REDES_COMPLEXAS_2025_V1.md). Referência **científica, não jurídica**; título oral exato = TOKEN_VAZIO.
-6. [Proteção integral e dados](../docs/RIGHTS_PRIVACY_CHILD_SAFEGUARD_CHARTER.md), [contrato técnico](../data/contracts/haja_legal_governance.v1.json), [validador](../scripts/validate_legal_governance.py).
+6. [Estado de Direito — compromissos de “nunca mais” e jurisprudência comparada V1](../docs/legal/HAJA_NUNCA_MAIS_ESTADO_DIREITO_JURISPRUDENCIA_COMPARADA_V1.md): 32 instrumentos, 14 decisões e 16 gates; corpora [normas](../data/legal/estado_direito_instruments.v1.jsonl), [casos](../data/legal/estado_direito_cases.v1.jsonl) e [arestas tipadas](../data/legal/estado_direito_edges.v1.jsonl). **Inventário inicial, sem alegação de exaustividade, reconhecimento estatal ou precedente emitido pelo projeto.**
+7. [Proteção integral e dados](../docs/RIGHTS_PRIVACY_CHILD_SAFEGUARD_CHARTER.md), [contrato técnico](../data/contracts/haja_legal_governance.v1.json), [validador](../scripts/validate_legal_governance.py).
 
 ## Para humanos e IAs
 
