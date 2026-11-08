@@ -1,5 +1,7 @@
 # HAJA Ω — Henrique Ferraz de Arruda | Redes complexas, evolução e ciência da ciência (2025)
 
+> **CORREÇÃO DE INTENÇÃO (2026-11-08; successor, sem apagar histórico):** o usuário esclareceu que procurava uma referência de **2026**, não 2025. Este arquivo preserva bibliografia verdadeira de 2025, mas não é mais a rota canônica para aquele pedido. Consulte [V2 — publicação de 2026](HENRIQUE_FERRAZ_DE_ARRUDA_REDES_COMPLEXAS_2026_V2.md). O título oral exato ainda é `TOKEN_VAZIO_TITULO_EXATO`.
+
 **Estado:** REFERÊNCIA_CIENTÍFICA_VERIFICADA_POR_METADADOS / INTERPRETAÇÃO_METODOLÓGICA_PROPOSTA / LEGAL_CLAIM=false.  
 **Consulta:** 2026-11-08. **Produtor:** instituto-Rafael/ESTADO-FRACTAL-HAJA.  
 **Rota:** 001_PONTEIRO → pesquisa de redes complexas → grafo de governança → registro jurídico (fronteira independente).
