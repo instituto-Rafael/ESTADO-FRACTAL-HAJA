@@ -52,7 +52,10 @@ class HajaRuleOfLawNeverAgainRegistry(unittest.TestCase):
             self.assertTrue(row["source_url"].startswith("https://"), row["id"])
         for row in self.norms:
             self.assertIn("evidence_level", row)
-            self.assertEqual("TOKEN_VAZIO", row["reservation_status"])
+            if row["kind"] == "INTERGOVERNMENTAL_CHARTER_NON_TREATY":
+                self.assertEqual("NOT_TREATY", row["reservation_status"])
+            else:
+                self.assertEqual("TOKEN_VAZIO", row["reservation_status"])
 
     def test_cases_have_material_facts_holdings_and_limits(self):
         for item in self.cases:
