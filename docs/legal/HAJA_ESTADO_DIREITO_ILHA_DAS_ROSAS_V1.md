@@ -95,7 +95,7 @@ Não extrair dados sensíveis, segredos, relatos infantis ou crenças para evide
 
 ## 8A. Referência científica transversal — redes complexas (não jurídica)
 
-[Henrique Ferraz de Arruda — publicações de 2025 e vínculo anterior à USP](../research/HENRIQUE_FERRAZ_DE_ARRUDA_REDES_COMPLEXAS_2025_V1.md) fornece literatura metodológica sobre redes adaptativas de opiniões e análise de redes do conhecimento. Pode inspirar a representação temporal e versionada de relações do HAJA. **Não é doutrina jurídica, jurisprudência, reconhecimento de Estado, aprovação da USP ou comprovação de governança implementada.** A correspondência com o título oral “atualizações de redes complexas” permanece TOKEN_VAZIO_TITULO_EXATO.
+[Henrique Ferraz de Arruda — fonte científica de 2026 (V2)](../research/HENRIQUE_FERRAZ_DE_ARRUDA_REDES_COMPLEXAS_2026_V2.md) registra *Mechanistic interplay between information spreading and opinion polarization* (*PNAS Nexus*, vol. 5, edição jan./2026, DOI https://doi.org/10.1093/pnasnexus/pgaf402; disponibilização on-line em 30/12/2025). [V1 de artigos de 2025 permanece histórico](../research/HENRIQUE_FERRAZ_DE_ARRUDA_REDES_COMPLEXAS_2025_V1.md), pois o usuário corrigiu o ano procurado para **2026**. Trata-se de literatura metodológica sobre redes adaptativas, influência de informação e polarização; pode inspirar uma modelagem de eventos tipados e versionados no HAJA. **Não é doutrina jurídica, jurisprudência, reconhecimento de Estado, aprovação da USP ou comprovação de governança implementada.** USP refere trajetória acadêmica de 2019; as afiliações do trabalho de 2026 são Zaragoza. Correspondência com o título oral “atualizações de redes complexas” permanece TOKEN_VAZIO_TITULO_EXATO.
 
 ## 9. Proveniência / reversibilidade
 
