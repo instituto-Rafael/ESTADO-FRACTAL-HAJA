@@ -28,10 +28,10 @@ class HajaRuleOfLawNeverAgainRegistry(unittest.TestCase):
         cls.router = POINTER.read_text(encoding="utf-8")
 
     def test_inventory_coverage_is_scoped_and_nonempty(self):
-        self.assertGreaterEqual(len(self.norms), 32)
+        self.assertGreaterEqual(len(self.norms), 33)
         self.assertGreaterEqual(len(self.cases), 14)
         self.assertGreaterEqual(len(self.edges), 18)
-        self.assertIn("≠ total mundial", self.text)
+        self.assertIn("33 instrumentos ≠ total mundial", self.text)
         self.assertIn("foram auditados todos os artigos", self.text.lower())
 
     def test_ids_are_unique_and_typed(self):
@@ -93,6 +93,7 @@ class HajaRuleOfLawNeverAgainRegistry(unittest.TestCase):
         norms = {r["id"]: r for r in self.norms}
         for ident in ("N020", "N021"):
             self.assertEqual("RESOLUTION_SOFT_LAW", norms[ident]["kind"])
+        self.assertEqual("INTERGOVERNMENTAL_CHARTER_NON_TREATY", norms["N033"]["kind"])
 
     def test_specific_prevention_not_attribution(self):
         bosnia = next(r for r in self.cases if r["id"] == "C002")
