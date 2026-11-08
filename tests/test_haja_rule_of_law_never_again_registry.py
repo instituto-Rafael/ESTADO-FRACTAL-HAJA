@@ -97,7 +97,7 @@ class HajaRuleOfLawNeverAgainRegistry(unittest.TestCase):
     def test_specific_prevention_not_attribution(self):
         bosnia = next(r for r in self.cases if r["id"] == "C002")
         self.assertIn("não atribuiu", bosnia["limits_and_counterpoint"].lower())
-        self.assertIn("prevenir", bosnia["holding_summary"].lower())
+        self.assertIn("prevenção", bosnia["holding_summary"].lower())
 
     def test_provenance_router_points_to_registry(self):
         for name in ("HAJA_NUNCA_MAIS_ESTADO_DIREITO_JURISPRUDENCIA_COMPARADA_V1.md",
