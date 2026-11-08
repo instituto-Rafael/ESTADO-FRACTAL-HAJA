@@ -4,8 +4,8 @@
 **Estado:** RESEARCH_DRAFT / CLAIM_ALLOWED=false / REVIEW_BY_QUALIFIED_COUNSEL=TOKEN_VAZIO.  
 **Emissão:** 2026-11-08. **Produtor:** instituto-Rafael/ESTADO-FRACTAL-HAJA.  
 **Antecessor de metodologia:** [Estado de Direito e Ilha das Rosas](HAJA_ESTADO_DIREITO_ILHA_DAS_ROSAS_V1.md).  
-**Corpus legível por máquina:** [32 instrumentos](../../data/legal/estado_direito_instruments.v1.jsonl) e [14 decisões](../../data/legal/estado_direito_cases.v1.jsonl). Cada entrada contém fonte, alcance e gaps.  
-**IMPORTANTE:** 32 instrumentos ≠ total mundial de tratados; 14 casos ≠ total mundial de jurisprudência. É a **primeira amostra tipada**, a expandir por famílias normativas e jurisdição, sem alegação de exaustividade.
+**Corpus legível por máquina:** [33 instrumentos](../../data/legal/estado_direito_instruments.v1.jsonl) e [14 decisões](../../data/legal/estado_direito_cases.v1.jsonl). Cada entrada contém fonte, alcance e gaps.  
+**IMPORTANTE:** 33 instrumentos ≠ total mundial de tratados; 14 casos ≠ total mundial de jurisprudência. É a **primeira amostra tipada**, a expandir por famílias normativas e jurisdição, sem alegação de exaustividade.
 
 ## 1. Fronteira semântica: jurisprudência real versus tese do HAJA
 
@@ -54,14 +54,14 @@ A família normativa foi **catalogada**, não ratificada nem integralmente audit
 | Família | Instrumentos no corpus | Compromissos essenciais | Advertência |
 | --- | --- | --- | --- |
 | Paz e Direito Internacional | N001;N010;N025 | paz; boa-fé; irretroatividade; critérios clássicos de Estado | Carta ONU não cria soberania para organização privada; Montevidéu não basta por autodeclaração |
-| Dignidade e garantias | N002;N005;N008;N011;N013;N023 | igualdade; juiz independente; devido processo; remédio eficaz | DUDH é declaração; tutela regional difere |
+| Dignidade e garantias | N002;N005;N008;N011;N013;N023;N033 | igualdade; juiz independente; devido processo; remédio eficaz | DUDH é declaração; tutela regional difere |
 | Prevenção de atrocidades | N003;N004;N014;N019;N020;N024 | impedir/punir genocídio; guerra; tortura; impunidade | responsabilidade internacional/penal depende de tipos e competência |
 | Discriminação e inclusão | N007;N012;N017;N028 | combater racismo; sexismo; capacitismo; proteger direitos indígenas | reserva, obrigação e remédios variam por Estado |
 | Infância e pessoas vulneráveis | N006;N015;N016;N018;N029 | refugiados; criança; migrante; vítima de desaparecimento | jurisdição, tratados e protocolos não são universais |
 | Trabalho e escravidão | N026;N027;N030 | proibir trabalho forçado e escravidão | N030 tem fonte contextual, texto do tratado pendente |
 | Verdade e reparação | N021;N031;N032 | reparação integral; políticas de não repetição; parâmetros institucionais | resolução ONU não é idêntica a obrigação convencional |
 
-**Fonte para 9 tratados centrais de direitos humanos:** lista ONU/OHCHR (https://www.un.org/en/node/143564). **A lista não equivale a ratificação por cada Estado.** Para cada tratado: consultar UN Treaty Collection + depositário + versão constitucional nacional antes de emitir afirmação aplicável a Brasil ou terceiro país.
+**Fonte para 9 tratados centrais de direitos humanos:** lista ONU/OHCHR (https://www.un.org/en/node/143564). **A lista não equivale a ratificação por cada Estado.** A [Carta Democrática Interamericana de 2001](https://www.oas.org/en/iachr/mandate/Basics/democraticcharter.asp) está indexada em N033 como instrumento intergovernamental **não tratado**, distinta da Carta constitutiva da OEA (N032). Para cada tratado: consultar UN Treaty Collection + depositário + versão constitucional nacional antes de emitir afirmação aplicável a Brasil ou terceiro país.
 
 ### 3.1 Obrigações expressas, não simples intenções
 
@@ -116,7 +116,7 @@ A **ONU A/RES/60/147**, princípio 23, contém uma lista específica de garantia
 
 Estas proposições são uma **síntese analítica não vinculante** (NON_BINDING_SYNTHESIS), destinada a avaliação independente. Nunca rotular como decisão judicial, súmula, parecer jurídico assinado, precedente obrigatório ou norma vigente.
 
-**TJ-H01 — Legalidade de duplo limite:** poder e validade formal são necessários, não bastam se direitos fundamentais e proibição de arbitrariedade forem violados. Fundamentação: N001,N002,N022,N023; limite: fontes formais e hierarquia própria.
+**TJ-H01 — Legalidade de duplo limite:** poder e validade formal são necessários, não bastam se direitos fundamentais e proibição de arbitrariedade forem violados. Fundamentação: N001,N002,N022,N023,N033; limite: fontes formais e hierarquia própria.
 
 **TJ-H02 — Dever de prevenir ≠ autoria do crime:** para genocídio, distinguir conhecimento/risco, meios razoáveis de prevenção e atribuição de atos; C002 é o principal teste de falsificação.
 
@@ -149,7 +149,7 @@ Estas proposições são uma **síntese analítica não vinculante** (NON_BINDIN
 4. Fazer joins apenas por IDs tipados; toda relação inferida = `HYPOTHESIS`; lacunas = `TOKEN_VAZIO`.
 5. Gate jurídico por Estado/época/órgão. Não mover de `INDEXED` para `LEGAL_VERIFIED` com CI de arquivos apenas.
 
-**Escopo deste lote:** 32 instrumentos indexados, 14 decisões resumidas por fontes judiciais/institucionais, seis pilares e 16 gates. **Não** foram auditados todos os artigos, reservas, status de ratificação/denúncia de cada Estado, traduções, cumprimentos, opiniões separadas ou atualizações posteriores. Estes itens são lacunas materiais para expansão, não zero.
+**Escopo deste lote:** 33 instrumentos indexados, 14 decisões resumidas por fontes judiciais/institucionais, seis pilares e 16 gates. **Não** foram auditados todos os artigos, reservas, status de ratificação/denúncia de cada Estado, traduções, cumprimentos, opiniões separadas ou atualizações posteriores. Estes itens são lacunas materiais para expansão, não zero.
 
 ## 8. Segurança, direito e reversibilidade
 
