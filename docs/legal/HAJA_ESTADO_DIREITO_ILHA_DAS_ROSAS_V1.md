@@ -99,7 +99,7 @@ Não extrair dados sensíveis, segredos, relatos infantis ou crenças para evide
 
 ## 8B. Complemento: tratados, não repetição e jurisprudência comparada
 
-Consultar [Dossiê HAJA — Estado de Direito, compromissos de “nunca mais” e jurisprudência V1](HAJA_NUNCA_MAIS_ESTADO_DIREITO_JURISPRUDENCIA_COMPARADA_V1.md). Registros estruturados: [32 instrumentos normativos](../../data/legal/estado_direito_instruments.v1.jsonl), [14 decisões de tribunais/comissão](../../data/legal/estado_direito_cases.v1.jsonl), [18 relações jurídicas tipadas](../../data/legal/estado_direito_edges.v1.jsonl). É um **recorte inicial**, não inventário integral de todas as convenções existentes nem sentença emitida pelo HAJA. Distinguir obrigações vinculantes, soft law, doutrina, decisões internas e internacionais; não presumir Estado reconhecido, ratificação, poderes coercitivos ou adoção jurídica.
+Consultar [Dossiê HAJA — Estado de Direito, compromissos de “nunca mais” e jurisprudência V1](HAJA_NUNCA_MAIS_ESTADO_DIREITO_JURISPRUDENCIA_COMPARADA_V1.md). Registros estruturados: [33 instrumentos normativos](../../data/legal/estado_direito_instruments.v1.jsonl), [14 decisões de tribunais/comissão](../../data/legal/estado_direito_cases.v1.jsonl), [18 relações jurídicas tipadas](../../data/legal/estado_direito_edges.v1.jsonl). É um **recorte inicial**, não inventário integral de todas as convenções existentes nem sentença emitida pelo HAJA. Distinguir obrigações vinculantes, soft law, doutrina, decisões internas e internacionais; não presumir Estado reconhecido, ratificação, poderes coercitivos ou adoção jurídica.
 
 ## 9. Proveniência / reversibilidade
 
